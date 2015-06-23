@@ -10,9 +10,9 @@
 Pod::Spec.new do |s|
   s.name             = "HorizontalDatePicker"
   s.version          = "0.1.0"
-  s.summary          = "A short description of HorizontalDatePicker."
+  s.summary          = "Horizontal date picker for iOS in Swift."
   s.description      = <<-DESC
-                       An optional longer description of HorizontalDatePicker
+                       Simple, configurable date picker that scrolles horizontally. Written is Swift.
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
