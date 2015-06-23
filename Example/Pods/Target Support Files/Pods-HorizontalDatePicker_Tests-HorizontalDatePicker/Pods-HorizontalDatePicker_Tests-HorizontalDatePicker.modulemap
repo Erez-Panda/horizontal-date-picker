@@ -1,0 +1,6 @@
+framework module HorizontalDatePicker {
+  umbrella header "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

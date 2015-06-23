@@ -1,0 +1,14 @@
+PODS:
+  - HorizontalDatePicker (0.1.0)
+
+DEPENDENCIES:
+  - HorizontalDatePicker (from `../`)
+
+EXTERNAL SOURCES:
+  HorizontalDatePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HorizontalDatePicker: 7fcb0df278a08187872b4482f08e787754642043
+
+COCOAPODS: 0.36.4

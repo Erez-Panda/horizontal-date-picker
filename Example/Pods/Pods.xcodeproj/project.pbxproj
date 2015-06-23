@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D5EF7427EB2884180C21B41 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC223551639345A093F2C706 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m */; };
+		20D2A1A343867D4F4855013E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DD452A5AFDDD20F41D2117 /* Foundation.framework */; };
+		2A818F8A5E775288C90305C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DD452A5AFDDD20F41D2117 /* Foundation.framework */; };
+		7BA1881C90FE8CD2D6D4D832 /* Pods-HorizontalDatePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0959FB4FC0AD9E90CA9786 /* Pods-HorizontalDatePicker_Tests-dummy.m */; };
+		9087BEEB3F8CEDB02E8D9B72 /* Pods-HorizontalDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1C1F66A524D5E796BEE522 /* Pods-HorizontalDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A828FB111B39AA6D000F87E9 /* DateSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A828FB0F1B39AA6D000F87E9 /* DateSelectorView.swift */; };
+		A828FB121B39AA6D000F87E9 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A828FB101B39AA6D000F87E9 /* DayView.swift */; };
+		D22A971D30D612DD30B8709B /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 131FD3DC60E97501F2B225D8 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2AA47E769CBCE0EDB59D7BA /* HorizontalDatePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B81AC74468AE3E2045D504D0 /* HorizontalDatePicker.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1530404B88AB0AD5FB4A0F18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687F49EF21D71E43B9433AD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DED548BEEF4011BA68F03227;
+			remoteInfo = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker";
+		};
+		9781CDA1399364AAEBDEC3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 687F49EF21D71E43B9433AD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FCB25235757F683D139F6F9;
+			remoteInfo = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0718D161B9A7F6D08D320CC1 /* Pods-HorizontalDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		131FD3DC60E97501F2B225D8 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-umbrella.h"; sourceTree = "<group>"; };
+		2497D86D4943356A383FA2F9 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-Private.xcconfig"; sourceTree = "<group>"; };
+		2E25743DA5CBBEFB9AC5FE30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3835848013D7F657356B7966 /* HorizontalDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0959FB4FC0AD9E90CA9786 /* Pods-HorizontalDatePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalDatePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		53405947DBF63822977C2FE3 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		55F1C603363DBFD38738B5A1 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-prefix.pch"; sourceTree = "<group>"; };
+		5AF15DD92CDA92EB1791DBF6 /* Pods-HorizontalDatePicker_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalDatePicker_Tests-environment.h"; sourceTree = "<group>"; };
+		5CAC5F28F11BC266D7DD58FB /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker.xcconfig"; sourceTree = "<group>"; };
+		71F72C6B78C16AFFB2CB3A0E /* Pods-HorizontalDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8F096237026C0BE53D9075F6 /* Pods-HorizontalDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9929EC80F614FC3C17A9D40C /* Pods-HorizontalDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HorizontalDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		A53BC5B093D77B7C6C912811 /* Pods-HorizontalDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A828FB0F1B39AA6D000F87E9 /* DateSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectorView.swift; sourceTree = "<group>"; };
+		A828FB101B39AA6D000F87E9 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		AB236A720A59819391034C88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC223551639345A093F2C706 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m"; sourceTree = "<group>"; };
+		AC8B78635188C9594C57CC83 /* Pods-HorizontalDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE1C1F66A524D5E796BEE522 /* Pods-HorizontalDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B81AC74468AE3E2045D504D0 /* HorizontalDatePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizontalDatePicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3853288C9FD120009F3844D /* Pods_HorizontalDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C6458D9AA98F08C1D3BD4A /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker.modulemap"; sourceTree = "<group>"; };
+		D6DD452A5AFDDD20F41D2117 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E515B620C9C47D138A89F921 /* Pods-HorizontalDatePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalDatePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC968A7E0E41A4AA8E38ECE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890F83B72E75D82BA287577A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A818F8A5E775288C90305C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD65B7253F83A6081F33F769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D2A1A343867D4F4855013E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01589884E51C24434D2332A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B81AC74468AE3E2045D504D0 /* HorizontalDatePicker.bundle */,
+				3835848013D7F657356B7966 /* HorizontalDatePicker.framework */,
+				C3853288C9FD120009F3844D /* Pods_HorizontalDatePicker_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CB03DF1249242F23F102D3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A828FB0F1B39AA6D000F87E9 /* DateSelectorView.swift */,
+				A828FB101B39AA6D000F87E9 /* DayView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1B4B84FE2E12AC47CCD2E859 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43EA3B9E5F4EE0310D6EBB66 /* HorizontalDatePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		414E596D631F56C3E68122A3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DD452A5AFDDD20F41D2117 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43EA3B9E5F4EE0310D6EBB66 /* HorizontalDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5C4A8633393AA695A5AF4FC5 /* Pod */,
+				83336B490183B217A93DA79C /* Support Files */,
+			);
+			name = HorizontalDatePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5764BB8070F66CF04617F79B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C8720E0550084DBEDC79287 /* Pods-HorizontalDatePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5C4A8633393AA695A5AF4FC5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				03CB03DF1249242F23F102D3 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		83336B490183B217A93DA79C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB236A720A59819391034C88 /* Info.plist */,
+				D6C6458D9AA98F08C1D3BD4A /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker.modulemap */,
+				5CAC5F28F11BC266D7DD58FB /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker.xcconfig */,
+				2497D86D4943356A383FA2F9 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-Private.xcconfig */,
+				AC223551639345A093F2C706 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m */,
+				55F1C603363DBFD38738B5A1 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-prefix.pch */,
+				131FD3DC60E97501F2B225D8 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker";
+			sourceTree = "<group>";
+		};
+		8C8720E0550084DBEDC79287 /* Pods-HorizontalDatePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2E25743DA5CBBEFB9AC5FE30 /* Info.plist */,
+				9929EC80F614FC3C17A9D40C /* Pods-HorizontalDatePicker_Tests.modulemap */,
+				8F096237026C0BE53D9075F6 /* Pods-HorizontalDatePicker_Tests-acknowledgements.markdown */,
+				AC8B78635188C9594C57CC83 /* Pods-HorizontalDatePicker_Tests-acknowledgements.plist */,
+				3F0959FB4FC0AD9E90CA9786 /* Pods-HorizontalDatePicker_Tests-dummy.m */,
+				5AF15DD92CDA92EB1791DBF6 /* Pods-HorizontalDatePicker_Tests-environment.h */,
+				71F72C6B78C16AFFB2CB3A0E /* Pods-HorizontalDatePicker_Tests-frameworks.sh */,
+				E515B620C9C47D138A89F921 /* Pods-HorizontalDatePicker_Tests-resources.sh */,
+				AE1C1F66A524D5E796BEE522 /* Pods-HorizontalDatePicker_Tests-umbrella.h */,
+				A53BC5B093D77B7C6C912811 /* Pods-HorizontalDatePicker_Tests.debug.xcconfig */,
+				0718D161B9A7F6D08D320CC1 /* Pods-HorizontalDatePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-HorizontalDatePicker_Tests";
+			path = "Target Support Files/Pods-HorizontalDatePicker_Tests";
+			sourceTree = "<group>";
+		};
+		90BA0F57448C794073373350 = {
+			isa = PBXGroup;
+			children = (
+				53405947DBF63822977C2FE3 /* Podfile */,
+				1B4B84FE2E12AC47CCD2E859 /* Development Pods */,
+				9CE0BDAE7EC3366444B83E11 /* Frameworks */,
+				01589884E51C24434D2332A4 /* Products */,
+				5764BB8070F66CF04617F79B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9CE0BDAE7EC3366444B83E11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414E596D631F56C3E68122A3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6FE58445B8D92FEA39253636 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22A971D30D612DD30B8709B /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C231EFB0FCCA57C8849426E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9087BEEB3F8CEDB02E8D9B72 /* Pods-HorizontalDatePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07ADEB7489E3162DCE6FC5D4 /* Pods-HorizontalDatePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC22008D363A23CD58CD8ED /* Build configuration list for PBXNativeTarget "Pods-HorizontalDatePicker_Tests" */;
+			buildPhases = (
+				7CA654457B203470F743B952 /* Sources */,
+				FD65B7253F83A6081F33F769 /* Frameworks */,
+				C231EFB0FCCA57C8849426E9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DD73D018714C8CDF9D4F2D8 /* PBXTargetDependency */,
+			);
+			name = "Pods-HorizontalDatePicker_Tests";
+			productName = "Pods-HorizontalDatePicker_Tests";
+			productReference = C3853288C9FD120009F3844D /* Pods_HorizontalDatePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5FCB25235757F683D139F6F9 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9678A1DDCD4B2F70605907A9 /* Build configuration list for PBXNativeTarget "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker" */;
+			buildPhases = (
+				81753E8EC4F89385016F194B /* Sources */,
+				890F83B72E75D82BA287577A /* Frameworks */,
+				72603BE8B0B472C96D9A853E /* Resources */,
+				6FE58445B8D92FEA39253636 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A9C20EBB938E9C6F01D87BB /* PBXTargetDependency */,
+			);
+			name = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker";
+			productName = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker";
+			productReference = 3835848013D7F657356B7966 /* HorizontalDatePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DED548BEEF4011BA68F03227 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40CD18865CD42906A1FBB94 /* Build configuration list for PBXNativeTarget "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker" */;
+			buildPhases = (
+				A8B7CCDB365C8124CB8352F3 /* Sources */,
+				3BC968A7E0E41A4AA8E38ECE /* Frameworks */,
+				B92EB2CB2B9AE35FDED88EA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker";
+			productName = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker";
+			productReference = B81AC74468AE3E2045D504D0 /* HorizontalDatePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		687F49EF21D71E43B9433AD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 68EDE87ED416517C89E43E60 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90BA0F57448C794073373350;
+			productRefGroup = 01589884E51C24434D2332A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07ADEB7489E3162DCE6FC5D4 /* Pods-HorizontalDatePicker_Tests */,
+				5FCB25235757F683D139F6F9 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker */,
+				DED548BEEF4011BA68F03227 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72603BE8B0B472C96D9A853E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AA47E769CBCE0EDB59D7BA /* HorizontalDatePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92EB2CB2B9AE35FDED88EA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CA654457B203470F743B952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BA1881C90FE8CD2D6D4D832 /* Pods-HorizontalDatePicker_Tests-dummy.m in Sources */,
+				A828FB121B39AA6D000F87E9 /* DayView.swift in Sources */,
+				A828FB111B39AA6D000F87E9 /* DateSelectorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81753E8EC4F89385016F194B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D5EF7427EB2884180C21B41 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B7CCDB365C8124CB8352F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A9C20EBB938E9C6F01D87BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker";
+			target = DED548BEEF4011BA68F03227 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker */;
+			targetProxy = 1530404B88AB0AD5FB4A0F18 /* PBXContainerItemProxy */;
+		};
+		4DD73D018714C8CDF9D4F2D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker";
+			target = 5FCB25235757F683D139F6F9 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker */;
+			targetProxy = 9781CDA1399364AAEBDEC3ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E7B42D329531F6B29AAC13E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HorizontalDatePicker_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HorizontalDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		730D13C2117FEA4662D773D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A53BC5B093D77B7C6C912811 /* Pods-HorizontalDatePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalDatePicker_Tests/Pods-HorizontalDatePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HorizontalDatePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7DFFDDA056270B722DC2BF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0718D161B9A7F6D08D320CC1 /* Pods-HorizontalDatePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalDatePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalDatePicker_Tests/Pods-HorizontalDatePicker_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_HorizontalDatePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9EBA7037DC6C293094B53835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2497D86D4943356A383FA2F9 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HorizontalDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A48E38EB9A4E8DBF299A6352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFB7EAC43DE5618242FD6D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D610FB23A53E6EC4B315727C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2497D86D4943356A383FA2F9 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker/Pods-HorizontalDatePicker_Tests-HorizontalDatePicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HorizontalDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F1867ABB8CFEF18353DDB099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-HorizontalDatePicker_Tests";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = HorizontalDatePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68EDE87ED416517C89E43E60 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFB7EAC43DE5618242FD6D6E /* Debug */,
+				A48E38EB9A4E8DBF299A6352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9678A1DDCD4B2F70605907A9 /* Build configuration list for PBXNativeTarget "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EBA7037DC6C293094B53835 /* Debug */,
+				D610FB23A53E6EC4B315727C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC22008D363A23CD58CD8ED /* Build configuration list for PBXNativeTarget "Pods-HorizontalDatePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730D13C2117FEA4662D773D1 /* Debug */,
+				7DFFDDA056270B722DC2BF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40CD18865CD42906A1FBB94 /* Build configuration list for PBXNativeTarget "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-HorizontalDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E7B42D329531F6B29AAC13E /* Debug */,
+				F1867ABB8CFEF18353DDB099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 687F49EF21D71E43B9433AD0 /* Project object */;
+}
