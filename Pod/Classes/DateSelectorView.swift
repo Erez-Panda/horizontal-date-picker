@@ -102,7 +102,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         }
     }
     
-    @IBInspectable public var selectedDayTextColor: UIColor = UIColor.lightGrayColor() {
+    @IBInspectable public var selectedDayTextColor: UIColor = UIColor.whiteColor() {
         didSet {
             if oldValue != selectedDayTextColor{
                 for dayView in daysBuffer {

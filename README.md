@@ -1,6 +1,6 @@
 # HorizontalDatePicker
 
-[![CI Status](http://img.shields.io/travis/Erez Haim/HorizontalDatePicker.svg?style=flat)](https://travis-ci.org/Erez Haim/HorizontalDatePicker)
+[![CI Status](http://img.shields.io/travis/Erez Haim/HorizontalDatePicker.svg?style=flat)](https://travis-ci.org/Erez-Panda/horizontal-date-picker)
 [![Version](https://img.shields.io/cocoapods/v/HorizontalDatePicker.svg?style=flat)](http://cocoapods.org/pods/HorizontalDatePicker)
 [![License](https://img.shields.io/cocoapods/l/HorizontalDatePicker.svg?style=flat)](http://cocoapods.org/pods/HorizontalDatePicker)
 [![Platform](https://img.shields.io/cocoapods/p/HorizontalDatePicker.svg?style=flat)](http://cocoapods.org/pods/HorizontalDatePicker)
