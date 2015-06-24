@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "HorizontalDatePicker"
-  s.version          = "0.1.1"
+  s.version          = "0.1.2"
   s.summary          = "Horizontal date picker for iOS in Swift."
   s.description      = <<-DESC
                        Simple, configurable date picker that scrolles horizontally. Written is Swift.
