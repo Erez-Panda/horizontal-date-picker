@@ -172,6 +172,8 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         let dayView = DayView(frame: CGRectMake(0, 0, dayWidth, scrollView.frame.height))
         dayView.layer.borderColor = self.borderColor.CGColor
         dayView.layer.borderWidth = self.borderWidth
+        dayView.selectedBackgroundColor = self.selectedDayBackgroundColor
+        dayView.selectedTextColor = self.selectedDayTextColor
         dayView.date = date
         dayView.onTap = dayWasTap
         
