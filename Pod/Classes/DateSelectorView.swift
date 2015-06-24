@@ -91,10 +91,34 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         }
     }
     
+    @IBInspectable public var selectedDayBackgroundColor: UIColor = UIColor.lightGrayColor() {
+        didSet {
+            if oldValue != selectedDayBackgroundColor{
+                for dayView in daysBuffer {
+                    dayView.selectedBackgroundColor = selectedDayBackgroundColor
+                }
+                selectedDay?.selected = true
+            }
+        }
+    }
+    
+    @IBInspectable public var selectedDayTextColor: UIColor = UIColor.lightGrayColor() {
+        didSet {
+            if oldValue != selectedDayTextColor{
+                for dayView in daysBuffer {
+                    dayView.selectedTextColor = selectedDayTextColor
+                }
+                selectedDay?.selected = true
+            }
+        }
+    }
+    
+    private var selectedDay : DayView?
+    
     private var daysBuffer : Array<DayView> = []
     private var scrollView : UIScrollView!
     
-    public var selectedDate : NSDate?
+    
     
     // MARK: Initializations
     
@@ -122,7 +146,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
             daysBuffer.append(dayView)
             if i == 0 {
                 dayView.selected = true
-                selectedDate = dayView.date
+                selectedDay = dayView
             }
             dayView.frame.origin.x = CGFloat(i) * (dayWidth - 1)
         }
@@ -156,7 +180,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
     
     func dayWasTap(sender: AnyObject?) -> (){
         if let dayView = sender as? DayView{
-            selectedDate = dayView.date
+            selectedDay = dayView
             delegate?.dateSelectorView(self, didSelecetDate: dayView.date)
         }
         for dayView in daysBuffer{
@@ -196,7 +220,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
                 let dayView = createDayView(daysBuffer[0].date.dateByAddingTimeInterval(Double(i*SEC_IN_DAY)))
                 scrollView.addSubview(dayView)
                 daysBuffer.append(dayView)
-                if dayView.date == selectedDate {
+                if dayView.date == selectedDay?.date {
                     dayView.selected = true
                 }
                 dayView.frame.origin.x = CGFloat(i) * (dayWidth - 1)
@@ -220,7 +244,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
                 let dayView = createDayView(currStartDate.dateByAddingTimeInterval(Double(-i*SEC_IN_DAY)))
                 scrollView.addSubview(dayView)
                 daysBuffer.insert(dayView, atIndex: 0)
-                if dayView.date == selectedDate {
+                if dayView.date == selectedDay?.date {
                     dayView.selected = true
                 }
                 dayView.frame.origin.x = CGFloat(-(i+1)) * (dayWidth - 1)

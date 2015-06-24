@@ -15,6 +15,9 @@ class DayView: UIView {
     private let dayNameLabel = UILabel()
     private let tapRec = UITapGestureRecognizer()
     private let control = UIControl()
+    
+    var selectedBackgroundColor = UIColor.lightGrayColor()
+    var selectedTextColor = UIColor.whiteColor()
 
     var onTap: ((sender: AnyObject?) -> ())?
     
@@ -35,10 +38,10 @@ class DayView: UIView {
     var selected: Bool = false {
         didSet{
             if selected {
-                backgroundColor = UIColor.lightGrayColor()
-                monthLabel.textColor = UIColor.whiteColor()
-                dayLabel.textColor = UIColor.whiteColor()
-                dayNameLabel.textColor = UIColor.whiteColor()
+                backgroundColor = selectedBackgroundColor
+                monthLabel.textColor = selectedTextColor
+                dayLabel.textColor = selectedTextColor
+                dayNameLabel.textColor = selectedTextColor
             } else {
                 backgroundColor = UIColor.clearColor()
                 monthLabel.textColor = UIColor.lightGrayColor()
