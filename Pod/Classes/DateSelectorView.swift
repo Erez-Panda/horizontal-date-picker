@@ -169,6 +169,16 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         }
     }
     
+    public func selectDate(date: NSDate){
+        for day in daysBuffer{
+            if day.date.isEqualToDate(date) {
+                day.selected = true
+            } else {
+                day.selected = false
+            }
+        }
+    }
+    
     func refresh(){
         scrollView.removeFromSuperview()
         daysBuffer.removeAll()
