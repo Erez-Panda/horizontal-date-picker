@@ -156,9 +156,16 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         super.layoutSubviews()
         //scrollView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)
         scrollView.contentSize = CGSizeMake(CGFloat(daysBufferLength) * (dayWidth - 1), scrollView.frame.size.height)
-        println("\(scrollView.frame.size.width) \(scrollView.frame.size.height)")
         for dayView in daysBuffer{
             dayView.frame.size.height = scrollView.frame.size.height
+        }
+    }
+    
+    public func setBadgeForDate(date: NSDate, value: Int){
+        for day in daysBuffer{
+            if day.date.isEqualToDate(date) {
+                day.badgeValue = value
+            }
         }
     }
     
