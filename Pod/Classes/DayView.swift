@@ -19,8 +19,13 @@ class DayView: UIView {
     
     var selectedBackgroundColor = UIColor.lightGrayColor()
     var selectedTextColor = UIColor.whiteColor()
-    var badgeColor = UIColor(red:66/255, green:122/255, blue:219/255, alpha:1.0)
-
+    var todayBackgroundColor = UIColor.whiteColor()
+    var badgeBackgroundColor = UIColor(red:66/255, green:122/255, blue:219/255, alpha:1.0){
+        didSet{
+            badge.backgroundColor = badgeBackgroundColor
+        }
+    }
+    
     var onTap: ((sender: AnyObject?) -> ())?
     
     var date: NSDate = NSDate() {
@@ -58,7 +63,7 @@ class DayView: UIView {
                 dayNameLabel.textColor = selectedTextColor
             } else {
                 if date.isEqualToDate(NSCalendar.currentCalendar().startOfDayForDate(NSDate())) {
-                    backgroundColor = UIColor(red:66/255, green:122/255, blue:219/255, alpha:0.2)
+                    backgroundColor = todayBackgroundColor
                 } else {
                     backgroundColor = UIColor.clearColor()
                 }
@@ -68,7 +73,7 @@ class DayView: UIView {
             }
         }
     }
-
+    
     // MARK: Initializations
     
     required override internal init(frame: CGRect) {
@@ -107,7 +112,7 @@ class DayView: UIView {
         dayLabel.textColor = UIColor.grayColor()
         dayNameLabel.textColor = UIColor.grayColor()
         
-        badge.backgroundColor = badgeColor
+        badge.backgroundColor = badgeBackgroundColor
         badge.hidden = true
         badge.textColor = UIColor.whiteColor()
         badge.textAlignment = NSTextAlignment.Center

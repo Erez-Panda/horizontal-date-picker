@@ -113,6 +113,26 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         }
     }
     
+    @IBInspectable public var todayBackgroundColor: UIColor = UIColor.whiteColor() {
+        didSet {
+            if oldValue != todayBackgroundColor{
+                for dayView in daysBuffer {
+                    dayView.todayBackgroundColor = todayBackgroundColor
+                }
+            }
+        }
+    }
+    
+    @IBInspectable public var badgeBackgroundColor: UIColor = UIColor.whiteColor() {
+        didSet {
+            if oldValue != badgeBackgroundColor{
+                for dayView in daysBuffer {
+                    dayView.badgeBackgroundColor = badgeBackgroundColor
+                }
+            }
+        }
+    }
+    
     private var selectedDay : DayView?
     
     private var daysBuffer : Array<DayView> = []
@@ -191,6 +211,8 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         dayView.layer.borderWidth = self.borderWidth
         dayView.selectedBackgroundColor = self.selectedDayBackgroundColor
         dayView.selectedTextColor = self.selectedDayTextColor
+        dayView.todayBackgroundColor = self.todayBackgroundColor
+        dayView.badgeBackgroundColor = self.badgeBackgroundColor
         dayView.date = date
         dayView.onTap = dayWasTap
         
