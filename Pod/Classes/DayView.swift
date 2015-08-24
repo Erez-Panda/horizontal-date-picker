@@ -85,6 +85,7 @@ class DayView: UIView {
         addSubview(monthLabel)
         addSubview(dayLabel)
         addSubview(dayNameLabel)
+        addSubview(badge)
         
         centerXView(monthLabel)
         topMarginView(monthLabel, margin: 20)
