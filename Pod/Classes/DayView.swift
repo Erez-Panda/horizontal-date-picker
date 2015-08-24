@@ -108,6 +108,7 @@ class DayView: UIView {
         dayNameLabel.textColor = UIColor.grayColor()
         
         badge.backgroundColor = badgeColor
+        badge.hidden = true
         badge.textColor = UIColor.whiteColor()
         badge.textAlignment = NSTextAlignment.Center
         badge.layer.borderWidth = 1.0
