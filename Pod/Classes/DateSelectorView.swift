@@ -178,6 +178,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         scrollView.contentSize = CGSizeMake(CGFloat(daysBufferLength) * (dayWidth - 1), scrollView.frame.size.height)
         for dayView in daysBuffer{
             dayView.frame.size.height = scrollView.frame.size.height
+            dayView.frame.size.width = dayWidth
         }
     }
     
@@ -207,7 +208,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
     
     func createDayView(date: NSDate) -> DayView{
         let dayView = NSBundle(forClass: DateSelectorView.self).loadNibNamed("DayView", owner: self, options: nil)[0] as! DayView
-        dayView.frame = CGRectMake(0, 0, dayWidth, scrollView.frame.height)
+        //dayView.frame = CGRectMake(0, 0, dayWidth, scrollView.frame.height)
         dayView.layer.borderColor = self.borderColor.CGColor
         dayView.layer.borderWidth = self.borderWidth
         dayView.selectedBackgroundColor = self.selectedDayBackgroundColor

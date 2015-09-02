@@ -88,12 +88,11 @@ class DayView: UIView {
     }
     
     func initDayView(){
-
-        
         addGestureRecognizer(tapRec)
         tapRec.addTarget(self, action: "tap:")
-        
-        
+    }
+    
+    override func awakeFromNib() {
         badge.backgroundColor = badgeBackgroundColor
         badge.layer.borderWidth = 1.0
         badge.layer.cornerRadius = 10
