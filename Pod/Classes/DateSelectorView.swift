@@ -170,6 +170,11 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
             }
             dayView.frame.origin.x = CGFloat(i) * (dayWidth - 1)
         }
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "rotated", name: UIDeviceOrientationDidChangeNotification, object: nil)
+    }
+    
+    func rotated(){
+        refresh()
     }
     
     override public func layoutSubviews() {
