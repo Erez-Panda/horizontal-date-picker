@@ -52,7 +52,7 @@
 		A53BC5B093D77B7C6C912811 /* Pods-HorizontalDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A828FB0F1B39AA6D000F87E9 /* DateSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectorView.swift; sourceTree = "<group>"; };
 		A828FB101B39AA6D000F87E9 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
-		A8FCEFF51B96FA3800A3AEE2 /* DayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DayView.xib; path = Assets/DayView.xib; sourceTree = "<group>"; };
+		A8FCEFF61B96FB1A00A3AEE2 /* DayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayView.xib; sourceTree = "<group>"; };
 		AB236A720A59819391034C88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC223551639345A093F2C706 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m"; sourceTree = "<group>"; };
 		AC8B78635188C9594C57CC83 /* Pods-HorizontalDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -104,6 +104,7 @@
 		03CB03DF1249242F23F102D3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A8FCEFF61B96FB1A00A3AEE2 /* DayView.xib */,
 				A828FB0F1B39AA6D000F87E9 /* DateSelectorView.swift */,
 				A828FB101B39AA6D000F87E9 /* DayView.swift */,
 			);
@@ -147,7 +148,6 @@
 		5C4A8633393AA695A5AF4FC5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A8FCEFF41B96FA1000A3AEE2 /* Assets */,
 				03CB03DF1249242F23F102D3 /* Classes */,
 			);
 			path = Pod;
@@ -204,14 +204,6 @@
 				414E596D631F56C3E68122A3 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A8FCEFF41B96FA1000A3AEE2 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				A8FCEFF51B96FA3800A3AEE2 /* DayView.xib */,
-			);
-			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
