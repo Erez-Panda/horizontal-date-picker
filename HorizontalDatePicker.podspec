@@ -28,8 +28,9 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
+  s.resources = ["classes/DayView.xib"]
   s.resource_bundles = {
-    'HorizontalDatePicker' => ['Pod/Classes/*.xib']
+    'HorizontalDatePicker' => ['Pod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
