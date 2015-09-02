@@ -52,6 +52,7 @@
 		A53BC5B093D77B7C6C912811 /* Pods-HorizontalDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A828FB0F1B39AA6D000F87E9 /* DateSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateSelectorView.swift; sourceTree = "<group>"; };
 		A828FB101B39AA6D000F87E9 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		A8FCEFF31B96F38000A3AEE2 /* DayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DayView.xib; sourceTree = "<group>"; };
 		AB236A720A59819391034C88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC223551639345A093F2C706 /* Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HorizontalDatePicker_Tests-HorizontalDatePicker-dummy.m"; sourceTree = "<group>"; };
 		AC8B78635188C9594C57CC83 /* Pods-HorizontalDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -105,6 +106,7 @@
 			children = (
 				A828FB0F1B39AA6D000F87E9 /* DateSelectorView.swift */,
 				A828FB101B39AA6D000F87E9 /* DayView.swift */,
+				A8FCEFF31B96F38000A3AEE2 /* DayView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
