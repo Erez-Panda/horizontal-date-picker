@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'HorizontalDatePicker' => ['Pod/Assets/*.png']
+    'HorizontalDatePicker' => ['Pod/Assets/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
