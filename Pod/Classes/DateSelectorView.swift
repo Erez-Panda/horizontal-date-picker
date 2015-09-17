@@ -174,7 +174,9 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
     }
     
     func rotated(){
-        refresh()
+        for i in 0..<daysBufferLength {
+            daysBuffer[i].frame = CGRectMake(CGFloat(i) * (dayWidth - 1), 0, dayWidth, scrollView.frame.height)
+        }
     }
     
     override public func layoutSubviews() {
