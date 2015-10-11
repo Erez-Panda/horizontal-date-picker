@@ -148,7 +148,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
         self.initDayViews()
     }
     
-    required public init(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         self.initDayViews()
@@ -239,7 +239,7 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
     }
     
     func constrainToParent(view: UIView){
-        view.setTranslatesAutoresizingMaskIntoConstraints(false)
+        view.translatesAutoresizingMaskIntoConstraints = false
         topMarginView(view, toItem: self, margin: 0)
         bottomMarginView(view, toItem: self, margin: 0)
         let leadingConstrain = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.LeadingMargin, relatedBy: NSLayoutRelation.Equal, toItem: self, attribute: NSLayoutAttribute.Leading, multiplier: 1, constant: 8)
@@ -249,12 +249,12 @@ public class DateSelectorView: UIView, UIScrollViewDelegate {
     }
     
     func topMarginView(view: UIView, toItem: UIView, margin: CGFloat){
-        view.setTranslatesAutoresizingMaskIntoConstraints(false)
+        view.translatesAutoresizingMaskIntoConstraints = false
         let topConstrain = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.TopMargin, relatedBy: NSLayoutRelation.Equal, toItem: toItem, attribute: NSLayoutAttribute.Top, multiplier: 1, constant: margin)
         toItem.addConstraint(topConstrain)
     }
     func bottomMarginView(view: UIView, toItem: UIView, margin: CGFloat){
-        view.setTranslatesAutoresizingMaskIntoConstraints(false)
+        view.translatesAutoresizingMaskIntoConstraints = false
         let bottomConstrain = NSLayoutConstraint(item: view, attribute: NSLayoutAttribute.BottomMargin, relatedBy: NSLayoutRelation.Equal, toItem: toItem, attribute: NSLayoutAttribute.Bottom, multiplier: 1, constant: margin)
         toItem.addConstraint(bottomConstrain)
     }

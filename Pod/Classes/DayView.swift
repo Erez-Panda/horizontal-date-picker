@@ -82,7 +82,7 @@ class DayView: UIView {
         initDayView()
     }
     
-    required internal init(coder aDecoder: NSCoder) {
+    required internal init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initDayView()
     }
